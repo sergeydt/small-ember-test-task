@@ -1,0 +1,17 @@
+<h1>Todos</h1>
+
+<form class="form-inline">
+    <label for="search-todos">Search for todos:</label>
+    {{view SearchInputDebounce.SearchView valueBinding="value" id="search-todos"}}
+</form>
+
+<p>Status </p>
+
+
+<ul>
+ {{#each filteredTodos}}
+ <li>{{#linkTo 'todo' this}}{{this.title}}{{/linkTo}}</li>
+  {{/each}}
+</ul>
+
+{{outlet}}

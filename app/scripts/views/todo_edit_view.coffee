@@ -1,0 +1,1 @@
+SearchInputDebounce.TodoEditView = Ember.View.extend(templateName: "todo_edit")

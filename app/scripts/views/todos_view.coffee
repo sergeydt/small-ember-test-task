@@ -1,0 +1,1 @@
+SearchInputDebounce.TodosView = Ember.View.extend(templateName: "todos")
