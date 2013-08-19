@@ -1,0 +1,16 @@
+@import url(bootstrap-sass/lib/bootstrap.css);
+/* Put your CSS here */
+/* line 4, ../../app/styles/style.scss */
+html, body {
+  margin: 30px 0;
+}
+
+/* line 8, ../../app/styles/style.scss */
+li.navigate:not(.active) {
+  cursor: pointer;
+}
+
+/* line 12, ../../app/styles/style.scss */
+img#loading.show {
+  display: inline-block;
+}
